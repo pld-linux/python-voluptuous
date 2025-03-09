@@ -63,7 +63,7 @@ formatów JSON, YAML itp.
 
 %prep
 %setup -q -n voluptuous-%{version}
-%patch0 -p1
+%patch -P 0 -p1
 
 %build
 %if %{with python2}
